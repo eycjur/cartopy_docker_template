@@ -20,16 +20,16 @@ make create-project
 	1. jra55.ipynbを開くと、jupyter notebook形式で実行できる
 
 -  スクリプト形式で実行  
-	1. python jra55.py
+	1. `python jra55.py`で実行
 	1. outputディレクトリ内に各種画像が出力される
 
 ### その他の場合
 1. ターミナルで`make create-project`を実行してdocker環境に入る
 
 - jupyter notebookで実行
-	1. ターミナルで`jupyter lab --port 8890`を実行
+	1. ターミナルで`make jupyter`を実行
 	1. ブラウザで http://localhost:8890/lab を開き、jra55.ipynbを開く
 
 -  スクリプト形式で実行
-	1. python jra55.py
+	1. `python jra55.py`で実行
 	1. outputディレクトリ内に各種画像が出力される
