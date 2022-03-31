@@ -36,4 +36,4 @@ destroy:
 destroy-volumes:
 	docker compose down --volumes --remove-orphans
 prune:
-	docker system prune:
+	docker system prune

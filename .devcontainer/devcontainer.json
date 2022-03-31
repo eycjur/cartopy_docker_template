@@ -1,0 +1,15 @@
+{
+  "name": "cartopy_docker_template",
+  "dockerComposeFile": [
+    "../docker-compose.yml"
+  ],
+  "service": "app",
+  "workspaceFolder": "/app",
+  "settings": {},
+  "extensions": [
+    "ms-ceintl.vscode-language-pack-ja",
+		"ms-toolsai.jupyter-keymap",
+		"ms-python.python",
+		"ms-toolsai.jupyter"
+  ]
+}
