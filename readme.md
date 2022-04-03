@@ -33,3 +33,10 @@ make create-project
 -  スクリプト形式で実行
 	1. `python jra55.py`で実行
 	1. outputディレクトリ内に各種画像が出力される
+
+## Warning
+- パッケージ管理ツール  
+パッケージ管理ツールはcondaを利用しています。  
+pipやpoetryとの併用は非推奨ですが、condaにないパッケージのインストールにはpipを利用してください。
+- ベースイメージ  
+利用しているDockerfileのベースイメージは[jupyter/scipy-notebook](https://hub.docker.com/r/jupyter/scipy-notebook/dockerfile)です。
