@@ -28,7 +28,7 @@ make create-project
 
 - jupyter notebookで実行
 	1. ターミナルで`make jupyter`を実行
-	1. ブラウザで http://localhost:8890/lab を開き、jra55.ipynbを開く
+	1. ターミナルに表示されるリンクを開き、jra55.ipynbを開く
 
 -  スクリプト形式で実行
 	1. `python jra55.py`で実行
