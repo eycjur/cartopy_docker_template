@@ -17,7 +17,7 @@ make create-project
 1. コマンドパレット(Ctrl + Shift + P)からReopen in Containerを実行
 
 - jupyter notebookで実行  
-	1. jra55.ipynbを開くと、jupyter notebook形式で実行できる
+	1. jra55.ipynbを開くと、jupyter notebook形式で実行できる（カーネルはbaseと表示されているものを選択してください）
 
 -  スクリプト形式で実行  
 	1. `python jra55.py`で実行

@@ -1,3 +1,3 @@
 .PHONY: jupyter
 jupyter:
-	jupyter notebook --port 8890
+	jupyter lab --port 8890

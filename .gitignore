@@ -1,7 +1,7 @@
 .venv/
-output/
 .ipynb_checkpoints/
 
 
+*.png
 anl_*
 *.csv
